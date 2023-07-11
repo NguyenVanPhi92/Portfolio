@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "incremental": true,
+        "paths": {
+            "components/*": ["./components/*"],
+            "constans/*": ["./constans/*"],
+            "contexts/*": ["./contexts/*"],
+            "helpers/*": ["./helpers/*"],
+            "pages/*": ["./pages/*"],
+            "hooks/*": ["./hooks/*"],
+            "app/*": ["./app/*"],
+            "apis/*": ["./apis/*"]
+        }
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "build"]
+}
