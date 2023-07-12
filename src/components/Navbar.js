@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
@@ -9,11 +9,9 @@ import {
     AiOutlineHome,
     AiOutlineUser
 } from 'react-icons/ai'
-import { CgGitFork } from 'react-icons/cg'
+import { CgFileDocument, CgGitFork } from 'react-icons/cg'
 import { ImBlog } from 'react-icons/im'
 import { Link } from 'react-router-dom'
-import logo from '../assets/assets/logo.png'
-import { CgFileDocument } from 'react-icons/cg'
 
 function NavBar() {
     const [expand, updateExpanded] = useState(false)
@@ -38,7 +36,7 @@ function NavBar() {
         >
             <Container>
                 <Navbar.Brand href='/' className='d-flex'>
-                    <img src={logo} className='img-fluid logo' alt='brand' />
+                    <img src={'./assets/assets/logo.png'} className='img-fluid logo' alt='brand' />
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls='responsive-navbar-nav'
