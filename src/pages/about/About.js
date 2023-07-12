@@ -1,11 +1,11 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import laptopImg from '../../assets/about.png'
+import laptopImg from 'assets/about.png'
 import Aboutcard from './AboutCard'
 import Github from './Github'
 import Toolstack from './Toolstack'
 import Techstack from './Techstack'
-import Particle from '../../components/Particle'
+import Particle from 'components/Particle'
 
 function About() {
     return (

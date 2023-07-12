@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import { CHROME, GIT, GITHUB, TRELLO, VSCODE, WINDOW } from '../../assets/tech'
+import { CHROME, GIT, GITHUB, TRELLO, VSCODE, WINDOW } from 'assets/tech'
 
 function Toolstack() {
     return (

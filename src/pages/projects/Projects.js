@@ -1,13 +1,13 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import ProjectCard from './ProjectCards'
-import Particle from '../../components/Particle'
-import leaf from '../../assets/projects/leaf.png'
-import emotion from '../../assets/projects/emotion.png'
-import editor from '../../assets/projects/codeEditor.png'
-import chatify from '../../assets/projects/chatify.png'
-import suicide from '../../assets/projects/suicide.png'
-import bitsOfCode from '../../assets/projects/blog.png'
+import Particle from 'components/Particle'
+import leaf from 'assets/projects/leaf.png'
+import emotion from 'assets/projects/emotion.png'
+import editor from 'assets/projects/codeEditor.png'
+import chatify from 'assets/projects/chatify.png'
+import suicide from 'assets/projects/suicide.png'
+import bitsOfCode from 'assets/projects/blog.png'
 
 function Projects() {
     return (

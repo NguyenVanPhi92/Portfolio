@@ -14,7 +14,7 @@ import {
     SASS,
     TAILWIND,
     TYPESCRIPT
-} from '../../assets/tech'
+} from 'assets/tech'
 
 function Techstack() {
     return (
