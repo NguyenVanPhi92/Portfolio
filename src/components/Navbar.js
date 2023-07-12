@@ -12,7 +12,7 @@ import {
 import { CgGitFork } from 'react-icons/cg'
 import { ImBlog } from 'react-icons/im'
 import { Link } from 'react-router-dom'
-import logo from 'assets/logo.png'
+import logo from '../assets/assets/logo.png'
 import { CgFileDocument } from 'react-icons/cg'
 
 function NavBar() {
