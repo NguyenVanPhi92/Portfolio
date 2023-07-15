@@ -6,6 +6,7 @@ import Github from './Github'
 import Toolstack from './Toolstack'
 import Techstack from './Techstack'
 import Particle from 'components/Particle'
+import about from '../../assets/about.png'
 
 function About() {
     return (
@@ -31,7 +32,7 @@ function About() {
                         style={{ paddingTop: '120px', paddingBottom: '50px' }}
                         className='about-img'
                     >
-                        <img src={'../../assets/about.png'} alt='about' className='img-fluid' />
+                        <img src={about} alt='about' className='img-fluid' />
                     </Col>
                 </Row>
                 <h1 className='project-heading'>

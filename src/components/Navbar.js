@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
+import Logo from '../assets/logo.png'
 import {
     AiFillStar,
     AiOutlineFundProjectionScreen,
@@ -36,7 +37,7 @@ function NavBar() {
         >
             <Container>
                 <Navbar.Brand href='/' className='d-flex'>
-                    <img src={'./assets/assets/logo.png'} className='img-fluid logo' alt='brand' />
+                    <img src={Logo} className='img-fluid logo' alt='brand' />
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls='responsive-navbar-nav'
